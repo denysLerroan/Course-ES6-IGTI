@@ -70,7 +70,7 @@ function doFind() {
   console.log(found);
 }
 
-// Retorna verdadeiro ou falso caso encontre ou não um registro passado na logica
+// Retorna verdadeiro ou falso caso encontre ou não um registro passado na lógica
 function doSome() {
   const found = people.results.some((person) => {
     return person.location.state === 'Amazonas';
